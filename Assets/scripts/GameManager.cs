@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Score: " + score.ToString();
     }
 
-    [ContextMenu("AddScore")]
+    // [ContextMenu("AddScore")]
     public void AddScore()
     {
         score++;
